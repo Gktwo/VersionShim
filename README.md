@@ -12,6 +12,10 @@ You can optionally select the target process(es) by listing its path or filename
 
 Lines beginning with `#` will be skipped.
 
+Add ', ms' after the DLL path. ms is a delay number that allows the current DLL to sleep before injection
+
+like  mydll.dll,6000     :The meaning is to inject this DLL after 6000 milliseconds
+
 libraries.txt *MUST* be encoded in UTF-8.
 
 License
